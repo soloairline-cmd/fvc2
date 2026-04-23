@@ -1,0 +1,24 @@
+# Netlify — Clean URLs (serve /page instead of /page.html)
+/boutique                            /boutique.html                            200
+/panier                              /panier.html                              200
+/info                                /info.html                                200
+/a-propos                            /a-propos.html                            200
+/cgv                                 /cgv.html                                 200
+/confidentialite                     /confidentialite.html                     200
+/mentions-legales                    /mentions-legales.html                    200
+/livraison                           /livraison.html                           200
+/produit-vitamine-c                  /produit-vitamine-c.html                  200
+/produit-acerola                     /produit-acerola.html                     200
+/produit-argousier                   /produit-argousier.html                   200
+/produit-camu-camu                   /produit-camu-camu.html                   200
+/produit-liposomale                  /produit-liposomale.html                  200
+/article-vitamine-c-stress-oxydatif  /article-vitamine-c-stress-oxydatif.html  200
+/article-vitamine-c-immunite         /article-vitamine-c-immunite.html         200
+/article-vitamine-c-cancer           /article-vitamine-c-cancer.html           200
+/article-pertes-vitamine-c           /article-pertes-vitamine-c.html           200
+/article-linus-pauling               /article-linus-pauling.html               200
+/article-histoire-vitamine-c         /article-histoire-vitamine-c.html         200
+/a-propos                            /a-propos.html                            200
+
+# Catch-all 404
+/*  /404.html  404

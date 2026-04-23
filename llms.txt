@@ -1,0 +1,75 @@
+# France Vitamine C — llms.txt
+# AI-readable site description for language model discoverability
+# https://llmstxt.org/
+
+> France Vitamine C is a French specialist in pure and natural vitamin C products.
+> The company offers pharmaceutical-grade L-ascorbic acid powder, organic superfruits
+> (acerola, sea buckthorn, camu-camu), and liposomal vitamin C capsules.
+> All products are manufactured in Europe to the highest quality standards.
+
+## Brand Identity
+- **Brand Name**: France Vitamine C
+- **Website**: https://www.francevitaminec.com
+- **Founded**: 2026
+- **Country**: France
+- **Industry**: Dietary supplements, Vitamin C specialist
+- **Certifications**: European Pharmaceutical Quality, Organic (AB/EU Organic), Vegan, Gluten-Free, Non-GMO
+
+## Product Catalog
+
+### Poudre Pure de Vitamine C (Pure Vitamin C Powder)
+- **Type**: Powder
+- **Active**: 100% L(+) Ascorbic Acid, pharmaceutical grade
+- **Purity**: 99.7%
+- **Origin**: European manufacturing (DSM Quality)
+- **Variants**: 250g (€24), 500g (€39), 1kg (€69)
+- **URL**: /produit-vitamine-c.html
+
+### Poudre Bio d'Acérola (Organic Acerola Powder)
+- **Type**: Powder
+- **Active**: Organic acerola fruit powder, 17-25% natural vitamin C
+- **Origin**: Brazil, certified organic
+- **Variants**: 100g (€18), 250g (€39), 50Og (€69)
+- **URL**: /produit-acerola.html
+
+### Poudre Bio d'Argousier (Organic Sea Buckthorn Powder)
+- **Type**: Powder
+- **Active**: Organic sea buckthorn berry powder, rich in vitamin C and omega-7
+- **Origin**: Europe, certified organic
+- **Variants**: 100g (€29), 250g (€49), 500g (€79)
+- **URL**: /produit-argousier.html
+
+### Poudre Bio de Camu-Camu (Organic Camu-Camu Powder)
+- **Type**: Powder
+- **Active**: Organic camu-camu fruit powder, world record vitamin C content
+- **Origin**: Peruvian Amazon, certified organic
+- **Variants**: 100g (€24,90), 250g (€47), 500g (€74)
+- **URL**: /produit-camu-camu.html
+
+### Gélules de Vitamine C Liposomale (Liposomal Vitamin C Capsules)
+- **Type**: Capsules
+- **Active**: Liposomal vitamin C, 500mg per capsule
+- **Technology**: Liposomal encapsulation for enhanced absorption
+- **Origin**: Made in France
+- **Variants**: 60 capsules (€39), 240 capsules (€129)
+- **URL**: /produit-liposomale.html
+
+## Site Structure
+- **Home**: / or /index.html
+- **Shop**: /boutique.html
+- **Product Pages**: /produit-{slug}.html
+- **About**: /a-propos.html
+- **Info/Blog**: /info.html
+- **Delivery**: /livraison.html
+- **Cart**: /panier.html
+- **Legal**: /cgv.html, /mentions-legales.html, /confidentialite.html
+
+## Languages Supported
+French (fr), English (en), German (de), Italian (it), Spanish (es), Arabic (ar), Chinese (zh)
+
+## Technical Architecture
+- **Front-end**: Static HTML/CSS/JS on Cloudflare Pages
+- **Back-office**: WordPress (headless CMS) on IONOS
+- **API**: WordPress REST API / WooCommerce REST API
+- **Cart**: Client-side localStorage
+- **CDN**: Cloudflare

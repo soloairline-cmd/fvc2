@@ -1,0 +1,60 @@
+# ============================================
+# FRANCE VITAMINE C — Cloudflare Pages Headers
+# Performance & Security optimization
+# ============================================
+
+# All pages — security headers
+/*
+  X-Frame-Options: DENY
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: strict-origin-when-cross-origin
+  Permissions-Policy: camera=(), microphone=(), geolocation=()
+  X-XSS-Protection: 1; mode=block
+  Content-Security-Policy: default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; font-src 'self'; img-src 'self' data: https:; connect-src 'self' https://admin.francevitaminec.fr
+
+# HTML pages — short cache, revalidate
+/*.html
+  Cache-Control: public, max-age=3600, stale-while-revalidate=86400
+  
+/index.html
+  Cache-Control: public, max-age=3600, stale-while-revalidate=86400
+
+# CSS files — long-term immutable cache
+/css/*
+  Cache-Control: public, max-age=31536000, immutable
+
+# JavaScript files — long-term immutable cache
+/js/*
+  Cache-Control: public, max-age=31536000, immutable
+
+# Language files — daily cache
+/lang/*
+  Cache-Control: public, max-age=86400
+  Content-Type: application/json; charset=utf-8
+
+# Images — long-term immutable cache
+/images/*
+  Cache-Control: public, max-age=31536000, immutable
+
+# Fonts (if self-hosted)
+/fonts/*
+  Cache-Control: public, max-age=31536000, immutable
+  Access-Control-Allow-Origin: *
+
+# Manifest & service worker
+/manifest.webmanifest
+  Cache-Control: public, max-age=86400
+  Content-Type: application/manifest+json
+
+# Sitemap & robots
+/sitemap.xml
+  Cache-Control: public, max-age=86400
+  Content-Type: application/xml
+
+/robots.txt
+  Cache-Control: public, max-age=86400
+
+# LLMs.txt for AI discoverability
+/llms.txt
+  Cache-Control: public, max-age=86400
+  Content-Type: text/plain; charset=utf-8

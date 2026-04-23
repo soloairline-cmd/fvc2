@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+
+  <!-- Homepage -->
+  <url>
+    <loc>https://www.francevitaminec.com/</loc>
+    <lastmod>2025-04-17</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://www.francevitaminec.com/images/hero/slide.horizontal/1.laboratoire.presentation.avif</image:loc>
+      <image:title>France Vitamine C - Laboratoire</image:title>
+    </image:image>
+  </url>
+
+  <!-- Shop -->
+  <url>
+    <loc>https://www.francevitaminec.com/boutique.html</loc>
+    <lastmod>2025-04-17</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- Products -->
+  <url>
+    <loc>https://www.francevitaminec.com/produit-vitamine-c.html</loc>
+    <lastmod>2025-04-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://www.francevitaminec.com/images/products/1.kg.face.vitamine.c.avif</image:loc>
+      <image:title>Poudre Pure de Vitamine C</image:title>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://www.francevitaminec.com/produit-acerola.html</loc>
+    <lastmod>2025-04-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://www.francevitaminec.com/images/products/poudre.d'acérola.bio/face.acerola.avif</image:loc>
+      <image:title>Poudre d'Acérola Bio</image:title>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://www.francevitaminec.com/produit-argousier.html</loc>
+    <lastmod>2025-04-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://www.francevitaminec.com/images/products/pourdre.d'argousier.bio/face.argousier.avif</image:loc>
+      <image:title>Poudre d'Argousier Bio</image:title>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://www.francevitaminec.com/produit-camu-camu.html</loc>
+    <lastmod>2025-04-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://www.francevitaminec.com/images/products/poudre.de.camu-camu.bio/face.camu.camu.avif</image:loc>
+      <image:title>Poudre de Camu-Camu Bio</image:title>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://www.francevitaminec.com/produit-liposomale.html</loc>
+    <lastmod>2025-04-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://www.francevitaminec.com/images/products/vitamine.C.liposomale/face.liposomale.avif</image:loc>
+      <image:title>Gélules de Vitamine C Liposomale</image:title>
+    </image:image>
+  </url>
+
+  <!-- Info Pages -->
+  <url>
+    <loc>https://www.francevitaminec.com/a-propos.html</loc>
+    <lastmod>2025-04-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://www.francevitaminec.com/info.html</loc>
+    <lastmod>2025-04-17</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://www.francevitaminec.com/livraison.html</loc>
+    <lastmod>2025-04-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+
+  <!-- Articles -->
+  <url>
+    <loc>https://www.francevitaminec.com/article-histoire-vitamine-c.html</loc>
+    <lastmod>2025-04-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://www.francevitaminec.com/article-linus-pauling.html</loc>
+    <lastmod>2025-04-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://www.francevitaminec.com/article-pertes-vitamine-c.html</loc>
+    <lastmod>2025-04-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://www.francevitaminec.com/article-vitamine-c-cancer.html</loc>
+    <lastmod>2025-04-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://www.francevitaminec.com/article-vitamine-c-immunite.html</loc>
+    <lastmod>2025-04-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://www.francevitaminec.com/article-vitamine-c-stress-oxydatif.html</loc>
+    <lastmod>2025-04-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <!-- Legal Pages -->
+  <url>
+    <loc>https://www.francevitaminec.com/cgv.html</loc>
+    <lastmod>2025-04-17</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
+
+  <url>
+    <loc>https://www.francevitaminec.com/mentions-legales.html</loc>
+    <lastmod>2025-04-17</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
+
+  <url>
+    <loc>https://www.francevitaminec.com/confidentialite.html</loc>
+    <lastmod>2025-04-17</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
+
+</urlset>

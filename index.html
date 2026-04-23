@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+<head>
+<meta charset="UTF-8">
+  <link rel="preload" href="/fonts/playfair-display-v700-latin.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="/fonts/manrope-v400-latin.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="/fonts/manrope-v600-latin.woff2" as="font" type="font/woff2" crossorigin>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="preload" as="image" href="images/hero/slide.horizontal/1.laboratoire.presentation.avif" fetchpriority="high">
+<noscript>
+</noscript>
+<title>France Vitamine C | Poudre Pure & Bio de Vitamine C | Qualité Pharmaceutique</title>
+<meta name="description" content="Spécialiste français de la vitamine C pure et naturelle. Poudre d'acide L-ascorbique pharmaceutique, acérola bio, argousier bio, camu-camu bio et gélules liposomales. Livraison rapide en France.">
+<meta name="keywords" content="vitamine C, poudre vitamine C, acide ascorbique, acérola bio, argousier bio, camu-camu bio, vitamine C liposomale, complément alimentaire, France">
+<link rel="canonical" href="https://www.francevitaminec.com/">
+<meta property="og:type" content="website">
+<meta property="og:title" content="France Vitamine C — Poudre Pure & Bio de Vitamine C">
+<meta property="og:description" content="Spécialiste français de la vitamine C pure et naturelle. Qualité pharmaceutique et biologique.">
+<meta property="og:image" content="https://www.francevitaminec.com/images/hero/slide.horizontal/1.laboratoire.presentation.avif">
+<meta property="og:url" content="https://www.francevitaminec.com/">
+<meta property="og:locale" content="fr_FR">
+<meta property="og:site_name" content="France Vitamine C">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="France Vitamine C — Poudre Pure & Bio de Vitamine C">
+<meta name="twitter:description" content="Spécialiste français de la vitamine C pure et naturelle.">
+<meta name="twitter:image" content="https://www.francevitaminec.com/images/hero/slide.horizontal/1.laboratoire.presentation.avif">
+<link rel="icon" type="image/avif" href="images/icons/fvc.url.logo.avif">
+<link rel="apple-touch-icon" href="images/icons/fvc.url.logo.avif">
+<link rel="manifest" href="manifest.webmanifest">
+<style>
+:root { 
+  --color-primary: #FC4E00; /* Darker orange for perfect accessibility contrast (AAA) */
+  --color-primary-dark: #D94400; 
+  --color-primary-light: #D35400;
+  --color-secondary: #D4A017;
+  --color-accent: #27AE60; 
+  --color-bg: #FFFFFF; 
+  --color-bg-warm: #FFF8F0; 
+  --color-text: #1A1A2E; 
+  --color-text-secondary: #333D41; /* Darker gray for better contrast */
+  --color-border: #E8E8E8; 
+  --color-white: #FFFFFF; 
+  --font-heading: 'Playfair Display', Georgia, serif; 
+  --font-body: 'Manrope', sans-serif; 
+  --radius-xl: 30px; 
+  --radius-lg: 20px; 
+  --radius-md: 12px; 
+  --transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1); 
+  --header-height: 80px; /* Increased for better tap targets */
+  --max-width: 1280px; 
+}
+*,*::before,*::after { box-sizing: border-box; margin: 0; padding: 0; }
+html { scroll-behavior: smooth; font-size: 16px; -webkit-text-size-adjust: 100%; text-size-adjust: 100%; }
+body { font-family: var(--font-body); color: var(--color-text); background: var(--color-bg); line-height: 1.7; overflow-x: hidden; }
+a { text-decoration: none; color: inherit; transition: var(--transition); }
+img { max-width: 100%; height: auto; display: block; }
+.container { max-width: var(--max-width); margin: 0 auto; padding: 0 24px; }
+.top-bar { background: linear-gradient(135deg, var(--color-primary), var(--color-primary-dark)); color: var(--color-white); padding: 8px 0; font-size: 13px; text-align: center; font-weight: 500; }
+.header { position: sticky; top: 0; height: 80px; z-index: 1000; background: rgba(255,255,255,0.97); -webkit-backdrop-filter: blur(20px); backdrop-filter: blur(20px); border-bottom: 1px solid var(--color-border); }
+.header-inner { display: flex; align-items: center; justify-content: space-between; height: 80px; }
+.nav-main { display: flex; gap: 40px; align-items: center; } /* Increased gap for tap targets */
+.nav-main a { font-family: var(--font-heading); font-weight: 600; font-size: 15px; text-transform: uppercase; color: var(--color-text); padding: 12px 4px; display: inline-block; } /* Added padding for tap targets */
+.header-actions { display: flex; align-items: center; gap: 20px; }
+.header-btn { padding: 10px; display: flex; align-items: center; justify-content: center; min-width: 44px; min-height: 44px; } /* Ensure 44px touch target */
+.logo img { height: 50px; width: auto; aspect-ratio: 220/44; } /* Fixed aspect ratio to avoid CLS */
+.hero-slider { position: relative; width: 100%; max-height: 720px; overflow: hidden; background: #000; aspect-ratio: 16/9; }
+@media(max-width: 1024px) { .hide-on-mobile { display: none !important; } }
+@media(max-width: 768px) { .hero-slider { aspect-ratio: 640/382; height: auto; min-height: 0; max-height: none; } }
+.hero-slider-track { display: flex; height: 100%; transition: transform 0.7s cubic-bezier(0.4, 0, 0.2, 1); }
+.hero-slide { flex: 0 0 100%; position: relative; overflow: hidden; height: 100%; }
+.hero-slide img { width: 100%; height: 100%; object-fit: cover; }
+@media(max-width: 768px) { .hero-slide img { aspect-ratio: 640/382; } }
+.hero-slide-overlay { position: absolute; inset: 0; background: linear-gradient(to top, rgba(0,0,0,0.7) 0%, rgba(0,0,0,0.15) 50%); }
+.hero-slide-content { position: absolute; bottom: 15%; left: 50%; transform: translateX(-50%); text-align: center; color: white; z-index: 3; width: 90%; max-width: 700px; }
+.hero-slide-content h2 { font-size: 2.8rem; font-weight: 800; line-height: 1.1; margin-bottom: 20px; text-shadow: 0 4px 20px rgba(0,0,0,0.4); }
+.hero-badge { display: inline-flex; align-items: center; gap: 8px; background: rgba(255,255,255,0.2); color: #fff; padding: 8px 16px; border-radius: var(--radius-xl); font-size: 13px; font-weight: 600; margin-bottom: 16px; -webkit-backdrop-filter: blur(4px); backdrop-filter: blur(4px); }
+.hero-slider-dots { position: absolute; bottom: 24px; left: 50%; transform: translateX(-50%); display: flex; gap: 16px; z-index: 5; } /* Increased gap for tap targets */
+.hero-slider-dot { width: 14px; height: 14px; border-radius: 50%; background: rgba(255,255,255,0.4); border: none; cursor: pointer; transition: all 0.3s; padding: 10px; box-sizing: content-box; background-clip: content-box; } /* Added padding for 44px target */
+.hero-slider-dot.active { background-color: white; transform: scale(1.1); }
+.hero-slide-content { position: absolute; bottom: 15%; left: 50%; transform: translateX(-50%); text-align: center; color: white; z-index: 3; width: 90%; max-width: 700px; min-height: 180px; display: flex; flex-direction: column; justify-content: flex-end; align-items: center; } /* Added min-height for CLS */
+.hero-slider-arrow { position: absolute; top: 50%; transform: translateY(-50%); z-index: 5; width: 48px; height: 48px; border-radius: 50%; background: rgba(255,255,255,0.15); -webkit-backdrop-filter: blur(8px); backdrop-filter: blur(8px); border: 1px solid rgba(255,255,255,0.2); color: white; cursor: pointer; display: flex; align-items: center; justify-content: center; transition: all 0.3s; }
+.hero-slider-arrow:hover { background: rgba(255,255,255,0.3); }
+.hero-slider-arrow.prev { left: 24px; }
+.hero-slider-arrow.next { right: 24px; }
+/* Showcase Styles */
+.snap-slide-vitc { background-image: url('images/hero/slide.vertical.shroling/1.vitamine.c.poudre.pure.qualite.pharmaceutique.avif'); }
+.snap-slide-lipo { background-image: url('images/hero/slide.vertical.shroling/2.vitamine.c.liposomale.avif'); }
+.snap-slide-fruits { background-image: url('images/hero/slide.vertical.shroling/3.super.frruit.bio.avif'); }
+.bg-warm { background: var(--color-bg-warm); }
+.molecule-img { max-width: 380px; margin: 0 auto; }
+.molecule-caption { margin-top: 16px; color: var(--color-text-secondary); font-size: 14px; }
+.text-center { text-align: center; }
+/* Critical: section spacing used above-the-fold — must be inline to prevent CLS */
+.section-padding { padding: 80px 0; }
+@media (max-width: 768px) { .section-padding { padding: 50px 0; } }
+@media (max-width: 480px) { .section-padding { padding: 40px 0; } }
+/* Critical: animate-on-scroll initial state must be inline — async style.css would cause visible→hidden flash (CLS) */
+.animate-on-scroll { opacity: 0; transform: translateY(30px); transition: opacity 0.7s cubic-bezier(0.4, 0, 0.2, 1), transform 0.7s cubic-bezier(0.4, 0, 0.2, 1); }
+.animate-on-scroll.visible { opacity: 1; transform: translateY(0); }
+.animate-on-scroll:nth-child(2) { transition-delay: 0.1s; }
+.animate-on-scroll:nth-child(3) { transition-delay: 0.2s; }
+.animate-on-scroll:nth-child(4) { transition-delay: 0.3s; }
+.animate-on-scroll:nth-child(5) { transition-delay: 0.4s; }
+/* Trust Section Critical */
+.trust-section { background: #FFFBF7; }
+.trust-container-flex { padding: 48px 40px; border: 2px solid #F0D7C5; border-radius: 16px; background: white; display: flex; gap: 60px; align-items: center; }
+.trust-side-header { flex: 0 0 320px; text-align: left; margin-bottom: 0; }
+.trust-grid-flex { flex: 1; display: grid; grid-template-columns: repeat(2, 1fr); gap: 24px; }
+.trust-icon { width: 64px; height: 64px; margin: 0 auto 16px; background: linear-gradient(135deg, #E8620A, #F5A623); border-radius: 12px; display: flex; align-items: center; justify-content: center; color: white; }
+.trust-icon svg { width: 32px; height: 32px; }
+.trust-item { text-align: center; padding: 32px 20px; }
+@media (max-width: 1024px) {
+  .trust-container-flex { flex-direction: column; gap: 40px; text-align: center; }
+  .trust-side-header { flex: none; width: 100%; text-align: center; }
+  .trust-grid-flex { grid-template-columns: repeat(2, 1fr); width: 100%; }
+}
+@media (max-width: 768px) {
+  .trust-section .trust-container-flex { padding: 20px 16px; border-width: 1.5px; overflow: hidden; }
+  .trust-grid-flex { grid-template-columns: 1fr 1fr; gap: 16px; }
+  .trust-item { padding: 20px 12px; }
+  .trust-icon { width: 48px; height: 48px; margin-bottom: 12px; }
+}
+@media (max-width: 480px) {
+  .trust-grid-flex { grid-template-columns: 1fr; }
+}
+</style>
+<link rel="preload" as="style" href="css/style.css">
+<link rel="stylesheet" href="css/style.css" media="print" onload="this.media='all'">
+<noscript><link rel="stylesheet" href="css/style.css"></noscript>
+<link rel="stylesheet" href="css/i18n-rtl.css" media="print" onload="this.media='all'">
+<noscript><link rel="stylesheet" href="css/i18n-rtl.css"></noscript>
+</head>
+<body class="page-enter">
+<div class="top-bar">
+<span data-i18n="topbar.shipping">🚚 Livraison offerte dès 69€ d'achat</span> &nbsp;|&nbsp; <span data-i18n="topbar.quality">🇪🇺 Qualité Pharmaceutique Européenne</span> &nbsp;|&nbsp; <span data-i18n="topbar.bio">🌿 Certifié Bio</span>
+</div>
+<header class="header" id="header">
+<div class="container header-inner">
+<a href="index.html" class="logo" aria-label="France Vitamine C - Accueil">
+<img src="images/logo/logo-full.avif" alt="France Vitamine C" width="220" decoding="async" height="44">
+</a>
+<nav class="nav-main" id="nav-main" aria-label="Navigation principale" data-i18n-aria="a11y.mainNav">
+<a href="index.html" class="active" data-i18n="nav.home">Accueil</a>
+<a href="boutique.html" data-i18n="nav.shop">Boutique</a>
+<a href="info.html" data-i18n="nav.info">Info</a>
+<a href="a-propos.html" data-i18n="nav.about">À propos</a>
+</nav>
+<div class="header-actions">
+<!-- Language switcher injected here by i18n.js -->
+<a href="panier.html" class="header-btn" aria-label="Panier" data-i18n-aria="nav.cart">
+<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="21" r="1"/><circle cx="20" cy="21" r="1"/><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"/></svg>
+<span class="cart-count">0</span>
+</a>
+<button class="menu-toggle" aria-label="Ouvrir le menu" aria-expanded="false" data-i18n-aria="nav.openMenu">
+<span></span><span></span><span></span>
+</button>
+</div>
+</div>
+</header>
+<div class="menu-overlay" id="menu-overlay"></div>
+<main id="main">
+<!-- ========== HORIZONTAL SLIDER (3 images) ========== -->
+<section class="hero-slider" aria-label="Bannière principale" data-i18n-aria="a11y.mainBanner" id="hero-slider">
+<div class="hero-slider-track" id="hero-slider-track">
+<div class="hero-slide">
+<img src="images/hero/slide.horizontal/1.laboratoire.presentation.avif" alt="Laboratoire France Vitamine C" fetchpriority="high" decoding="sync" width="1600" height="900">
+<div class="hero-slide-overlay"></div>
+<div class="hero-slide-content">
+<h1 class="hide-on-mobile" data-i18n="home.heroSlide1Title">Vitamine C pure de qualité pharmaceutique</h1>
+<a href="boutique.html" class="btn btn-primary btn-lg" data-i18n="home.discover">Visiter la boutique</a>
+</div>
+</div>
+<div class="hero-slide">
+<img src="images/hero/slide.horizontal/2.famille.avif" alt="Famille en bonne santé" loading="lazy" decoding="async" width="1600" height="900">
+<div class="hero-slide-overlay"></div>
+<div class="hero-slide-content">
+<h2 data-i18n="home.heroSlide2Title">La vitalité pour toute la famille</h2>
+<a href="boutique.html" class="btn btn-primary btn-lg" data-i18n="home.discover">Découvrir</a>
+</div>
+</div>
+</div>
+<button class="hero-slider-arrow prev" aria-label="Slide précédent">
+<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="15 18 9 12 15 6"/></svg>
+</button>
+<button class="hero-slider-arrow next" aria-label="Slide suivant">
+<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"/></svg>
+</button>
+<div class="hero-slider-dots" id="hero-slider-dots">
+<button class="hero-slider-dot active" data-slide="0" aria-label="Slide 1"></button>
+<button class="hero-slider-dot" data-slide="1" aria-label="Slide 2"></button>
+</div>
+</section>
+
+<!-- ========== TRUST SECTION ========== -->
+<section class="trust-section section-padding" aria-label="Nos engagements" data-i18n-aria="a11y.commitments">
+<div class="container">
+<div class="trust-container-flex">
+<div class="trust-side-header section-header">
+<span class="overline" data-i18n="home.trustOverline">Savoir-faire</span>
+<h2 data-i18n="home.trustTitle">Nos Engagements Qualité</h2>
+<p data-i18n="home.trustDesc">Nous ne transigeons jamais sur la pureté et la transparence de nos compléments alimentaires.</p>
+</div>
+<div class="trust-grid-flex">
+<div class="trust-item animate-on-scroll">
+<div class="trust-icon">
+<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+</div>
+<h3 data-i18n="home.trust1Title">Qualité Pharmaceutique</h3>
+<p data-i18n="home.trust1Desc">Pureté 99,7% certifiée, fabrication européenne aux normes les plus strictes</p>
+</div>
+<div class="trust-item animate-on-scroll">
+<div class="trust-icon">
+<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/></svg>
+</div>
+<h3 data-i18n="home.trust2Title">100% Pure & Naturelle</h3>
+<p data-i18n="home.trust2Desc">Sans additifs, sans conservateurs, sans colorants, sans sucres, sans OGM</p>
+</div>
+<div class="trust-item animate-on-scroll">
+<div class="trust-icon">
+<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="1" y="3" width="15" height="13"/><polygon points="16 8 20 8 23 11 23 16 16 16 16 8"/><circle cx="5.5" cy="18.5" r="2.5"/><circle cx="18.5" cy="18.5" r="2.5"/></svg>
+</div>
+<h3 data-i18n="home.trust3Title">Livraison Rapide</h3>
+<p data-i18n="home.trust3Desc">Expédition sous 24-48h. Livraison offerte dès 69€ d'achat en France</p>
+</div>
+<div class="trust-item animate-on-scroll">
+<div class="trust-icon">
+<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>
+</div>
+<h3 data-i18n="home.trust4Title">Satisfaction Client</h3>
+<p data-i18n="home.trust4Desc">Plus de 10 000 clients satisfaits. Note moyenne de 4.8/5 étoiles</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+
+<!-- ========== FULL SCREEN VERTICAL SCROLLING SHOWCASE ========== -->
+<section class="fullscreen-snap-container" id="product-showcase" aria-label="Découvrez nos produits">
+<a href="produit-vitamine-c.html" class="snap-slide snap-slide-vitc">
+<div class="snap-overlay"></div>
+<div class="snap-content">
+<h3 data-i18n="showcase.vitcTitle">Poudre Pure de Vitamine C</h3>
+<p data-i18n="showcase.vitcDesc">Acide L-Ascorbique — Qualité Pharmaceutique</p>
+<span class="btn btn-primary btn-lg" data-i18n="home.discover">Découvrir</span>
+</div>
+</a>
+<a href="produit-liposomale.html" class="snap-slide snap-slide-lipo">
+<div class="snap-overlay"></div>
+<div class="snap-content">
+<h3 data-i18n="showcase.lipoTitle">Gélules de Vitamine C Liposomale</h3>
+<p data-i18n="showcase.lipoDesc">Absorption Maximale — Gélules Végétales</p>
+<span class="btn btn-primary btn-lg" data-i18n="home.discover">Découvrir</span>
+</div>
+</a>
+<a href="boutique.html?filter=super-fruits-bio" class="snap-slide snap-slide-fruits">
+<div class="snap-overlay"></div>
+<div class="snap-content">
+<h3 data-i18n="showcase.fruitsTitle">Super Fruits Bio</h3>
+<p data-i18n="showcase.fruitsDesc">Acérola, Argousier, Camu-Camu</p>
+<span class="btn btn-primary btn-lg" data-i18n="home.discover">Découvrir</span>
+</div>
+</a>
+</section>
+
+<!-- ========== BENEFITS SECTION ========== -->
+<section class="section-padding bg-warm" aria-label="Bienfaits de la vitamine C" data-i18n-aria="a11y.benefits">
+<div class="container">
+<div class="section-header animate-on-scroll">
+<span class="overline" data-i18n="home.benefitsOverline">Pourquoi la Vitamine C ?</span>
+<h2><span data-i18n="home.benefitsTitle">Un nutriment</span> <span class="text-gradient" data-i18n="home.benefitsTitleGradient">essentiel</span></h2>
+<p data-i18n="home.benefitsDesc">La vitamine C est le nutriment le plus étudié au monde. Voici pourquoi elle est indispensable à votre santé.</p>
+</div>
+<div class="benefits-grid">
+<div class="benefits-list">
+<div class="benefit-item animate-on-scroll">
+<div class="benefit-icon">🛡️</div>
+<div class="benefit-text">
+<h3 data-i18n="home.benefit1Title">Système Immunitaire</h3>
+<p data-i18n="home.benefit1Desc">La vitamine C stimule la production de globules blancs et renforce vos défenses naturelles contre les infections.</p>
+</div>
+</div>
+<div class="benefit-item animate-on-scroll">
+<div class="benefit-icon">⚡</div>
+<div class="benefit-text">
+<h3 data-i18n="home.benefit2Title">Énergie & Vitalité</h3>
+<p data-i18n="home.benefit2Desc">Elle contribue à réduire la fatigue et l'épuisement en améliorant l'absorption du fer et le métabolisme énergétique.</p>
+</div>
+</div>
+<div class="benefit-item animate-on-scroll">
+<div class="benefit-icon">✨</div>
+<div class="benefit-text">
+<h3 data-i18n="home.benefit3Title">Peau & Collagène</h3>
+<p data-i18n="home.benefit3Desc">Indispensable à la synthèse du collagène, elle favorise une peau ferme, des articulations souples et des os solides.</p>
+</div>
+</div>
+<div class="benefit-item animate-on-scroll">
+<div class="benefit-icon">🧬</div>
+<div class="benefit-text">
+<h3 data-i18n="home.benefit4Title">Antioxydant Puissant</h3>
+<p data-i18n="home.benefit4Desc">Elle protège vos cellules contre les radicaux libres et le stress oxydatif, ralentissant le vieillissement cellulaire.</p>
+</div>
+</div>
+</div>
+<div class="animate-on-scroll text-center">
+<img src="images/molecule-vitc.avif" alt="Molécule de Vitamine C (Acide Ascorbique)" class="molecule-img" loading="lazy" decoding="async" width="380" height="380">
+<p class="molecule-caption" data-i18n="home.moleculeCaption">Formule chimique de l'Acide L-Ascorbique (C₆H₈O₆)</p>
+</div>
+</div>
+</div>
+</section>
+
+<!-- Testimonials section removed per design requirements -->
+
+<!-- ========== NEWSLETTER ========== -->
+<section class="newsletter" aria-label="Newsletter" data-i18n-aria="a11y.newsletter">
+<div class="container">
+<div class="newsletter-inner">
+<div class="newsletter-content">
+<h2 data-i18n="home.newsletterTitle">Restez informé(e)</h2>
+<p data-i18n="home.newsletterDesc">Recevez nos offres exclusives directement dans votre boîte mail.</p>
+</div>
+<form class="newsletter-form" id="newsletter-form" aria-label="Inscription à la newsletter">
+<div class="form-group form-group--flex">
+<label for="newsletter-email" class="sr-only">Adresse email</label>
+<input type="email" id="newsletter-email" required aria-label="Adresse email" data-i18n-placeholder="home.newsletterPlaceholder" placeholder="Votre adresse email">
+</div>
+<button type="submit" data-i18n="home.newsletterBtn">S'inscrire</button>
+</form>
+</div>
+</div>
+</section>
+</main>
+
+<!-- ========== FOOTER ========== -->
+<footer class="footer" aria-label="Pied de page" data-i18n-aria="a11y.footer">
+<div class="container">
+<div class="footer-grid">
+<div class="footer-brand">
+<img src="images/logo/logo-full.avif" alt="France Vitamine C" width="180" loading="lazy" decoding="async">
+<p data-i18n="footer.brand">Spécialiste français de la vitamine C pure et naturelle depuis 2026. Qualité pharmaceutique et biologique, sans compromis.</p>
+</div>
+<div>
+<h3 data-i18n="footer.shopTitle">Boutique</h3>
+<ul>
+<li><a href="produit-vitamine-c.html">Vitamine C Pure</a></li>
+<li><a href="produit-acerola.html">Acérola Bio</a></li>
+<li><a href="produit-argousier.html">Argousier Bio</a></li>
+<li><a href="produit-camu-camu.html">Camu-Camu Bio</a></li>
+<li><a href="produit-liposomale.html">Vitamine C Liposomale</a></li>
+</ul>
+</div>
+<div>
+<h3 data-i18n="footer.infoTitle">Informations</h3>
+<ul>
+<li><a href="a-propos.html" data-i18n="nav.about">À propos</a></li>
+<li><a href="info.html" data-i18n="footer.articles">Articles & Info</a></li>
+<li><a href="panier.html" data-i18n="nav.cart">Mon panier</a></li>
+</ul>
+</div>
+<div>
+<h3 data-i18n="footer.legalTitle">Légal</h3>
+<ul>
+<li><a href="cgv.html" data-i18n="footer.cgv">Conditions Générales</a></li>
+<li><a href="mentions-legales.html" data-i18n="footer.legalNotice">Mentions Légales</a></li>
+<li><a href="confidentialite.html" data-i18n="footer.privacy">Confidentialité</a></li>
+<li><a href="livraison.html" data-i18n="footer.deliveryConditions">Conditions de Livraison</a></li>
+</ul>
+</div>
+</div>
+<div class="footer-bottom">
+<p data-i18n="footer.copyright">&copy; 2026 France Vitamine C — www.francevitaminec.com — Tous droits réservés</p>
+<div class="footer-payments"><span class="pay-logo" title="Visa"><svg width="50" height="30" viewBox="0 0 50 30" role="img" aria-label="Visa"><rect width="50" height="30" rx="5" fill="#1A1F71"/><text x="25" y="21" text-anchor="middle" fill="white" font-size="14" font-weight="900" font-family="Arial,sans-serif" letter-spacing="-0.5">VISA</text></svg></span><span class="pay-logo" title="Mastercard"><svg width="50" height="30" viewBox="0 0 50 30" role="img" aria-label="Mastercard"><rect width="50" height="30" rx="5" fill="#252525"/><circle cx="19" cy="15" r="10" fill="#EB001B"/><circle cx="31" cy="15" r="10" fill="#F79E1B"/><path d="M25 7.3a10 10 0 0 1 0 15.4A10 10 0 0 1 25 7.3z" fill="#FF5F00"/></svg></span><span class="pay-logo" title="PayPal"><svg width="50" height="30" viewBox="0 0 50 30" role="img" aria-label="PayPal"><rect width="50" height="30" rx="5" fill="#009cde"/><text x="25" y="21" text-anchor="middle" fill="white" font-size="11" font-weight="700" font-family="Arial,sans-serif">PayPal</text></svg></span><span class="pay-logo" title="Google Pay"><svg width="60" height="30" viewBox="0 0 60 30" role="img" aria-label="Google Pay"><rect width="60" height="30" rx="5" fill="#fff" stroke="#e0e0e0"/><text x="30" y="20" text-anchor="middle" font-size="11" font-weight="700" font-family="Arial,sans-serif"><tspan fill="#4285F4">G</tspan><tspan fill="#EA4335">o</tspan><tspan fill="#FBBC05">o</tspan><tspan fill="#4285F4">g</tspan><tspan fill="#34A853">l</tspan><tspan fill="#EA4335">e</tspan><tspan fill="#5f6368"> Pay</tspan></text></svg></span><span class="pay-logo" title="Apple Pay"><svg width="60" height="30" viewBox="0 0 60 30" role="img" aria-label="Apple Pay"><rect width="60" height="30" rx="5" fill="#000"/><text x="32" y="20" text-anchor="middle" fill="white" font-size="11" font-weight="600" font-family="-apple-system,Arial,sans-serif">&#xf8ff; Pay</text></svg></span></div>
+</div>
+</div>
+</footer>
+
+<!-- Scripts: env → api → i18n → app (order matters) -->
+<script src="js/env.js" defer></script>
+<script src="js/api.js" defer></script>
+<script src="js/i18n.js" defer></script>
+<script src="js/app.js" defer></script>
+<script>
+/* Horizontal Hero Slider */
+document.addEventListener('DOMContentLoaded', () => {
+  const track = document.getElementById('hero-slider-track');
+  const dots = document.querySelectorAll('.hero-slider-dot');
+  const prevBtn = document.querySelector('.hero-slider-arrow.prev');
+  const nextBtn = document.querySelector('.hero-slider-arrow.next');
+  if (!track) return;
+
+  let currentSlide = 0;
+  const totalSlides = 2;
+  let autoInterval;
+
+  function goToSlide(index) {
+    currentSlide = ((index % totalSlides) + totalSlides) % totalSlides;
+    track.style.transform = `translateX(-${currentSlide * 100}%)`;
+    dots.forEach((d, i) => d.classList.toggle('active', i === currentSlide));
+  }
+
+  function startAuto() {
+    autoInterval = setInterval(() => goToSlide(currentSlide + 1), 5000);
+  }
+
+  function stopAuto() {
+    clearInterval(autoInterval);
+  }
+
+  prevBtn?.addEventListener('click', () => { stopAuto(); goToSlide(currentSlide - 1); startAuto(); });
+  nextBtn?.addEventListener('click', () => { stopAuto(); goToSlide(currentSlide + 1); startAuto(); });
+  dots.forEach(dot => dot.addEventListener('click', () => { stopAuto(); goToSlide(parseInt(dot.dataset.slide)); startAuto(); }));
+
+  // Touch/swipe support
+  let touchStartX = 0;
+  track.addEventListener('touchstart', e => { touchStartX = e.touches[0].clientX; stopAuto(); }, { passive: true });
+  track.addEventListener('touchend', e => {
+    const diff = touchStartX - e.changedTouches[0].clientX;
+    if (Math.abs(diff) > 50) goToSlide(currentSlide + (diff > 0 ? 1 : -1));
+    startAuto();
+  }, { passive: true });
+
+  startAuto();
+
+  // Initialize i18n after all scripts loaded
+  if (typeof i18n !== 'undefined' && ENV.FEATURES.MULTILINGUAL) {
+    i18n.init();
+  }
+});
+</script>
+</body>
+</html>
